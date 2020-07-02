@@ -4,7 +4,7 @@ This homework assingment is to a weather dashboard which the user can search cit
 ## How is this weather dashboard work?
 The user can search by city name then the current weather report will show up.
 
-<img width="1146" alt="Screen Shot 2020-06-20 at 2 32 49 PM" src="https://user-images.githubusercontent.com/64511825/85211889-b2db9000-b30a-11ea-9e08-5db692a326ae.png"><br> <br>
+![weather](https://user-images.githubusercontent.com/64511825/86411589-64b77c80-bc7a-11ea-8944-1de522078c8f.png)<br> <br>
 
 Once you finish all the question, the score will show at the last page with the initails input. or you can click "Play Again!" to start over.
 <img width="1101" alt="Screen Shot 2020-06-20 at 2 33 21 PM" src="https://user-images.githubusercontent.com/64511825/85211999-a0ae2180-b30b-11ea-80eb-a3fb22978ea7.png">

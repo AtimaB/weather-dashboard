@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--CSS link-->
+<link rel="stylesheet" href="style.css">
+<!--font awesome link-->
+<link
+rel="stylesheet"
+href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+crossorigin="anonymous"
+/>
+
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <header>
+        <div class="container" id="navbar">
+            <h1>Weather Dashboard</h1>
+        </div>
+    </header>
+
+    <!-- search section -->
+    <div class="container">
+        <div class="row">
+          <h3 class="text-center ">Search for a City : </h3>
+        </div>
+
+            <div class="row form-group from-inline" id="rowdiv">
+                <input type="text" class="form-control" id="city" placeholder="  City Name">
+                <button type="search" id="submitWeather"><i class="fas fa-search-location"></i></button>
+                <button id="clear"><i class="far fa-trash-alt"></i></button>
+            </div>
+            <!-- Date section --> 
+        <h5 id="date" class="lead"></h5>
+    </div>
+
+    <!-- city name favorites section -->
+    <div class="col-sm-3 history">
+        <ul class="list-group"><h4>Favorites : </h4>
+        </ul>
+        
+      </div>
+  
+    <!-- weather detail section --> 
+    <div class="col" id="show"> </div>
+    <div class="col" id="uv-data"></div>
+
+    <!--5 days forcast-->
+    <div class="col" id="fiveDays"></div>
+   
+
+
+<!--Footer-->
+    <footer>
+        <div class="col-md-12-expand-lg" style="width: 100%; text-align: center; margin-top: 50px; padding-top: 10px;padding-bottom: 20px;">
+          <p style="color: white;">Ⓒ Weather Dashboard : Atima Bennett</p>
+        </div>
+
+    </footer>
+             
+
+
+
+    <!-- moment.js link -->
+    <script src="assets/moment/moment.min.js"></script>
+    <script>
+      console.log(moment());
+    </script>
+    <!-- Jquery link -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+   <!-- javaScript link -->
+   <script src="weather.js"></script>
+
+</body>
+</html>

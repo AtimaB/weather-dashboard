@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(./assets/weather.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+#navbar {
+    background-color:rgba(0, 13, 43, 0.8);
+    height: 90px;
+    padding: 20px 0px;
+    margin: 0;
+    margin-bottom: 30px;
+    max-width: 100%;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+i {
+    font-size: 20px;
+
+}
+
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    word-spacing: 4px;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.list-group h4 {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-spacing: 4px;
+    margin-top: 20px;
+}
+
+h4 {
+    font-size: 20px;
+   
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-spacing: 4px;
+    margin-top: 20px;
+}
+
+
+h5 {
+    font-size: 20px;
+    text-align: center;
+    color:rgb(0, 40, 66);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-spacing: 4px;
+    margin-top: 20px;
+}
+
+#rowdiv {
+    margin: auto;
+    text-align: center;
+    width: 60%;
+    margin-top: 20px;
+
+}
+
+#city {
+    background-color: rgb(164, 212, 245);
+    height: 50px;
+    width: 190px;
+    border: none;
+    border-radius: 20px 0px 20px 0px;
+
+}
+
+#submitWeather, #clear {
+    background-color:rgba(0, 13, 43, 0.8);
+    color: white;
+    height: 50px;
+    width: 60px;
+    border-radius: 0px 20px 0px 20px;
+    border: none;
+    font-size: 16px;
+    transition: 0.2 ease-out;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 5px;
+}
+
+#submitWeather:hover, .favorites:hover,  #clear:hover {
+    background-color:rgb(164, 212, 245);
+    color:rgba(0, 13, 43, 0.8);
+}
+
+#submitWeather:focus, #city:focus, .favorites:focus,  #clear:focus  {
+    outline: none;
+}
+
+#show {
+    background-color: rgba(0, 13, 43, 0.8);
+    color: white;
+    margin: auto;
+    margin-top: 10px;
+    width: 600px;
+    border: solid 1px rgb(0, 40, 66);
+    border-radius: 10px;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    
+}
+
+.col-sm-3  {
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#favList {
+    display: inline;
+    color: white;
+}
+
+.favorites {
+    color: white;
+    font-size: 18px;
+    height: 50px;
+    width: 200px;
+    margin: auto;
+    margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:rgba(0, 13, 43, 0.8) ;
+    border-radius: 10px;
+    border: none;
+}

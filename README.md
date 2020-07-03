@@ -2,7 +2,7 @@
 This homework assingment is to a weather dashboard which the user can search cities and know the weather report.
 
 ## How is this weather dashboard work?
-The user can search by city name then the current weather report will show up.
+The user can search by city name then the current weather report will show up with the weather icon.
 
 ![weather](https://user-images.githubusercontent.com/64511825/86411589-64b77c80-bc7a-11ea-8944-1de522078c8f.png)<br> <br>
 

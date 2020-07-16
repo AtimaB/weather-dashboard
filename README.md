@@ -7,6 +7,10 @@ The user can search by city name then the current weather report will show up wi
 ![weather](https://user-images.githubusercontent.com/64511825/86411589-64b77c80-bc7a-11ea-8944-1de522078c8f.png)<br> <br>
 
 
+
+## Link
+https://atimab.github.io/weather-dashboard/
+
 ## The issues 
 1) I can not get the uv index report.
 2) I can not get 5 days weather report.
